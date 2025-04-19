@@ -3,7 +3,7 @@ import asyncio
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel
 
 # Setup Gemini API
-gemini_api = "AIzaSyBWOH8VTt5dgEs6WD124soShBAnRQh9vkk"
+gemini_api = "Your_Gemini_Api_Key"
 provider = AsyncOpenAI(
     api_key=gemini_api,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai",
